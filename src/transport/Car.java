@@ -1,6 +1,6 @@
 package transport;
 
-public class Car extends Engine {
+public class Car extends checkEngine {
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

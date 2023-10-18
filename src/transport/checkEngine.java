@@ -1,8 +1,8 @@
 package transport;
 
-public abstract class Engine extends Characteristic {
+public abstract class checkEngine extends Transport {
 
-    public Engine(String modelName, int wheelsCount) {
+    public checkEngine(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 

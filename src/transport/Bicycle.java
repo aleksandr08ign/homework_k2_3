@@ -1,6 +1,6 @@
 package transport;
 
-public class Bicycle extends Characteristic {
+public class Bicycle extends Transport {
 
     private final static int WheelsCount = 2;
 

@@ -2,11 +2,11 @@ package transport;
 
 import service.Serviceable;
 
-public abstract class Characteristic implements Serviceable {
+public abstract class Transport implements Serviceable {
     public String modelName;
     public int wheelsCount;
 
-    public Characteristic(String modelName, int wheelsCount) {
+    public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
